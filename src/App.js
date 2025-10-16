@@ -5,13 +5,19 @@ import Splash from "./components/Splash";
 import Login from "./components/Login";
 import CadastrarUsuarios from "./components/CadastrarUsuarios";
 import EsqueceuSenha from "./components/EsqueceuSenha";
+import ValidarEmail from "./components/ValidarEmail";
+import MenuPrincipal from "./components/MenuPrincipal";
+import Lanches from "./components/Lanches";
 
 export default props => {
     return (
         <SafeAreaView style={styles.container}>
             {/* <Login/> */}
             {/* <CadastrarUsuarios /> */}
-            <EsqueceuSenha />
+            {/* <EsqueceuSenha /> */}
+            {/* <ValidarEmail /> */}
+            {/* <MenuPrincipal /> */}
+            <Lanches />
         </SafeAreaView>
     )
 }
