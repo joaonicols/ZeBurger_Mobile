@@ -5,6 +5,7 @@ export default props => {
   return (
     <View style={styles.container}>
       <Text style={styles.titulo}>Menu Principal</Text>
+
       <View style={styles.grupoCard}>
         <View style={styles.cards}>
           <Image
@@ -13,28 +14,13 @@ export default props => {
           />
           <Text style={styles.txtTitCard}>Lanches</Text>
         </View>
-        <View style={styles.cards}>
-          <Image
-            style={styles.imgTitCard}
-            source={require('../../assets/logo_burger.png')}
-          />
-          <Text style={styles.txtTitCard}>Lanches</Text>
-        </View>
 
         <View style={styles.cards}>
           <Image
             style={styles.imgTitCard}
-            source={require('../../assets/logo_burger.png')}
+            source={require('../../assets/bebidas.png')}
           />
-          <Text style={styles.txtTitCard}>Lanches</Text>
-        </View>
-
-        <View style={styles.cards}>
-          <Image
-            style={styles.imgTitCard}
-            source={require('../../assets/logo_burger.png')}
-          />
-          <Text style={styles.txtTitCard}>Lanches</Text>
+          <Text style={styles.txtTitCard}>Bebidas</Text>
         </View>
       </View>
     </View>
@@ -65,7 +51,7 @@ const styles = StyleSheet.create({
   },
 
   grupoCard: {
-    flexDirection: 'row',
+    flexDirection: 'row'
   },
 
   imgTitCard: {
