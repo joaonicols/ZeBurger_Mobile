@@ -5,7 +5,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 
-import TabBarNav from './components/TabBarNav';
+import DrawerNav from './components/DrawerNav';
+// import TabBarNav from './components/TabBarNav';
 // import CodigoSenha from './components/CodigoSenha';
 // import Splash from "./components/Splash";
 // import Login from "./components/Login";
@@ -34,7 +35,8 @@ export default props => {
         {/* <BottomNav /> */}
         {/* <Bebidas /> */}
         {/* <CodigoSenha /> */}
-        <TabBarNav /> 
+        {/* <TabBarNav />  */}
+        <DrawerNav />
       </NavigationContainer>
     </SafeAreaView>
   );
